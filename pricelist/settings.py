@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-d$(f(5s-t14-py+mq4jgmod)i!rpd&266c^+(kz44m7gx_-tm1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = [
+    'pepito-store.herokuapp.com',
+    '0.0.0.0',
+]
 
 
 # Application definition
